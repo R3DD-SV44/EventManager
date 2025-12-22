@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="eventmanager.client/eventmanager.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="EventManager.Server/EventManager.Server.csproj" />
+</Solution>
