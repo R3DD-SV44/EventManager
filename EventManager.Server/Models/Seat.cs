@@ -2,6 +2,7 @@
 {
     public class Seat
     {
+        public int Id { get; set; }
         public int Number { get; set; }
         public string Row { get; set; }
         public string State { get; set; }

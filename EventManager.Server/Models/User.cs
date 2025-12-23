@@ -2,11 +2,14 @@
 {
     public class User
     {
-        string Name { get;set; }
-        string Email { get;set; }
-        string Password { get; set;}
-        string Role { get; set; }
-        List<Reservation> ReservationHistory { get; set; }
-    
+        public int Id { get; set; } // Clé primaire
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+        public string Role { get; set; } = "Client";
+
+        // Liste des réservations de l'utilisateur
+        public List<Reservation> ReservationHistory { get; set; } = new();
+
     }
 }
