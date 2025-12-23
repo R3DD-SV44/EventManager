@@ -4,5 +4,7 @@
     {
         string name { get; set; }
         int capacity { get; set; }
+        string[] ChargingZones { get; set; }
+        string[][] SeatsDisposition { get; set; }
     }
 }

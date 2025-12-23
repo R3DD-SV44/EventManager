@@ -7,6 +7,7 @@ namespace EventManager.Server.Models
     {
         public int Id { get; set;}
         public int ReservationId { get; set; }
-        public string 
+        public string Status { get; set; }
+
     }
 }

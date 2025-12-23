@@ -2,11 +2,11 @@
 {
     public class User
     {
-        string name { get;set; }
-        string email { get;set; }
-        string password { get; set;}
-        string role { get; set; }
-        List<Reservation> reservationHistory { get; set; }
+        string Name { get;set; }
+        string Email { get;set; }
+        string Password { get; set;}
+        string Role { get; set; }
+        List<Reservation> ReservationHistory { get; set; }
     
     }
 }

@@ -2,10 +2,10 @@
 {
     public class Event
     {
-        string name { get; set; }
-        string date { get; set; }
-        string description { get; set; }
-        Scene location { get; set; }
+        string Name { get; set; }
+        string Date { get; set; }
+        string Description { get; set; }
+        Scene Location { get; set; }
 
     }
 }
